@@ -1,14 +1,22 @@
-# Local Climate Zones (LCZ) Web App
 
-This repository contains a web application for visualizing Local Climate Zones (LCZ) data using Streamlit and Folium.
+
+# LCZ Web App
+
+This is a Streamlit-based web application for visualizing Local Climate Zones (LCZ) data.
 
 ## Features
-- Interactive map for exploring LCZ data.
-- Easy-to-use web application.
+- Interactive GeoJSON map of LCZ data.
+- Sidebar navigation for easy exploration.
+- Lightweight and simple interface.
 
-## How to Run
+## Installation
 1. Clone this repository:
-https://github.com/eman-nawzad/LCZ-WebApp.git
+   ```bash
+   git clone https://github.com/eman-nawzad/project2.git
+   cd project2
+
+
+
 
 2. Navigate to the project directory:
 cd LCZ-WebApp
@@ -21,7 +29,7 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 
 ## Data
-- `data/LCZ.GeoJson.geojson`: The GeoJSON file containing LCZ data.
+- `LCZ.GeoJson.geojson`: The GeoJSON file containing LCZ data.
 
 ## Dependencies
 - Streamlit
