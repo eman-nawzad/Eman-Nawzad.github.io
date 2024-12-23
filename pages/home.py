@@ -1,5 +1,6 @@
+import streamlit as st
+
 def display():
-    import streamlit as st
     st.title("Home")
     st.write("""
     Welcome to the Local Climate Zones (LCZ) Web Application!
