@@ -14,7 +14,7 @@ st.set_page_config(
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "About"])
 
-# Custom CSS using Times New Roman
+# Custom CSS using Times New Roman with uniform boldness
 custom_css = """
     <style>
     body {
@@ -36,6 +36,7 @@ custom_css = """
         font-size: 1.3rem;  /* Slightly larger text for readability */
         color: #333333; /* Dark gray for text color */
         line-height: 1.8; /* Increase line spacing for readability */
+        font-weight: bold; /* Make all text bold for uniformity */
     }
     </style>
 """
