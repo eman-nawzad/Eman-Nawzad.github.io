@@ -1,22 +1,16 @@
 import streamlit as st
 
 def display():
-    st.title("About")
-    st.write("""
-    ### About the LCZ Web Application
-    
-    The Local Climate Zones (LCZ) Web App provides an interactive platform for exploring LCZ data.
-    
-    **What are LCZs?**
-    LCZs classify urban and natural landscapes into distinct zones based on land cover, structure, and density. 
-    This classification is vital for urban planning, environmental analysis, and climate studies.
-    
-    **How to Use This App?**
-    - Navigate to the "LCZ Map" section to view LCZ data interactively.
-    - Use the "Contact" page to reach out for feedback or queries.
+    st.title("About the LCZ Web App")
+    st.write(
+        """
+        The LCZ Web App is a tool designed to visualize Local Climate Zones (LCZ) data.
+        This app is built using Streamlit and supports GeoJSON mapping.
+        
+        - **Author**: Your Name
+        - **GitHub Repository**: [Link to your repo](https://github.com/your-username/your-repo)
+        - **Technologies Used**: Streamlit, Folium, GeoPandas
+        """
+    )
 
-    **Credits:**
-    - Developed by [Your Name].
-    - Data sourced from [Your Data Source].
-    """)
 
