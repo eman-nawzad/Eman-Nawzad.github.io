@@ -1,16 +1,7 @@
 import streamlit as st
 
 def display():
-    st.title("Home")
-    st.write("""
-    Welcome to the Local Climate Zones (LCZ) Web Application!
-    
-    This app provides an interactive platform to explore and visualize Local Climate Zones (LCZ).
-    
-    **Features:**
-    - View LCZ data interactively on a map.
-    - Learn about LCZ classifications in the About section.
-    - Contact us for feedback or questions.
-
-    Use the sidebar to navigate between pages.
-    """)
+    st.title("Welcome to the LCZ Web App!")
+    st.write("This web application provides an interactive map of Local Climate Zones (LCZ) and other related features.")
+    st.image("assets/favicon.png", width=150)
+    st.write("Use the sidebar to navigate between pages.")
