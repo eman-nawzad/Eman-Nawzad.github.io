@@ -30,7 +30,7 @@ else:
 
 import streamlit as st
 
-# Set page configuration as the first Streamlit command
+# Set page configuration
 st.set_page_config(
     page_title="LCZ Web App",
     page_icon="🌍",
@@ -43,15 +43,14 @@ page = st.sidebar.radio("Go to", ["Home", "LCZ Map", "About", "Contact"])
 
 # Dynamic page loading
 if page == "Home":
-    import pages.home as home
+    from pages import home
     home.display()
 elif page == "LCZ Map":
-    import pages.map as map_page
-    map_page.display()
+    from pages import lcz_map
+    lcz_map.display()
 elif page == "About":
-    import pages.about as about
+    from pages import about
     about.display()
-else:
-    import pages.contact as contact
+elif page == "Contact":
+    from pages import contact
     contact.display()
-
