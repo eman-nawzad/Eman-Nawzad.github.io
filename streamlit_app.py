@@ -14,6 +14,9 @@ st.set_page_config(
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "About"])
 
+# Add Streamlit line (divider) in the sidebar
+st.sidebar.markdown("---")  # This adds a horizontal line in the sidebar
+
 # Custom CSS for styling
 custom_css = """
     <style>
@@ -128,5 +131,6 @@ st.markdown(
     "</ul>",
     unsafe_allow_html=True
 )
+
 
 
