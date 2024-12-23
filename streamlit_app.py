@@ -95,42 +95,42 @@ elif page == "About":
         unsafe_allow_html=True
     )
 
-# Add extra information at the bottom (common to both pages, outside page selection logic)
-st.markdown("<hr>", unsafe_allow_html=True)  # Horizontal line to separate sections
-st.markdown("<h3 class='header-font'>App Overview</h3>", unsafe_allow_html=True)
-st.markdown(
-    "<p class='text-font'>This web app provides an interactive platform to explore **Local Climate Zones (LCZ)** data.</p>"
-    "<p class='text-font'>- Use the <strong>Home</strong> page to view the interactive map.</p>"
-    "<p class='text-font'>- Visit the <strong>About</strong> page to learn more about the app and its purpose.</p>",
-    unsafe_allow_html=True
-)
+    # Add extra information only for the About page
+    st.markdown("<hr>", unsafe_allow_html=True)  # Horizontal line to separate sections
+    st.markdown("<h3 class='header-font'>App Overview</h3>", unsafe_allow_html=True)
+    st.markdown(
+        "<p class='text-font'>This web app provides an interactive platform to explore **Local Climate Zones (LCZ)** data.</p>"
+        "<p class='text-font'>- Use the <strong>Home</strong> page to view the interactive map.</p>"
+        "<p class='text-font'>- Visit the <strong>About</strong> page to learn more about the app and its purpose.</p>",
+        unsafe_allow_html=True
+    )
 
-st.markdown("<h3 class='header-font'>Instructions</h3>", unsafe_allow_html=True)
-st.markdown(
-    "<p class='text-font'>1. Select a page from the sidebar navigation.</p>"
-    "<p class='text-font'>2. On the <strong>Home</strong> page:</p>"
-    "<ul class='text-font'><li>Explore the map to view LCZ data.</li>"
-    "<li>Zoom and pan to see different regions.</li></ul>"
-    "<p class='text-font'>3. On the <strong>About</strong> page:</p>"
-    "<ul class='text-font'><li>Read about the app's purpose and data sources.</li></ul>",
-    unsafe_allow_html=True
-)
+    st.markdown("<h3 class='header-font'>Instructions</h3>", unsafe_allow_html=True)
+    st.markdown(
+        "<p class='text-font'>1. Select a page from the sidebar navigation.</p>"
+        "<p class='text-font'>2. On the <strong>Home</strong> page:</p>"
+        "<ul class='text-font'><li>Explore the map to view LCZ data.</li>"
+        "<li>Zoom and pan to see different regions.</li></ul>"
+        "<p class='text-font'>3. On the <strong>About</strong> page:</p>"
+        "<ul class='text-font'><li>Read about the app's purpose and data sources.</li></ul>",
+        unsafe_allow_html=True
+    )
 
-st.markdown("<h3 class='header-font'>About LCZ Data</h3>", unsafe_allow_html=True)
-st.markdown(
-    "<p class='text-font'>LCZ data categorizes land into zones based on urban and natural landscapes, "
-    "helping researchers and planners analyze urban climates.</p>",
-    unsafe_allow_html=True
-)
+    st.markdown("<h3 class='header-font'>About LCZ Data</h3>", unsafe_allow_html=True)
+    st.markdown(
+        "<p class='text-font'>LCZ data categorizes land into zones based on urban and natural landscapes, "
+        "helping researchers and planners analyze urban climates.</p>",
+        unsafe_allow_html=True
+    )
 
-st.markdown("<h3 class='header-font'>Resources</h3>", unsafe_allow_html=True)
-st.markdown(
-    "<ul class='text-font'>"
-    "<li><a href='https://docs.streamlit.io/' target='_blank'>Streamlit Documentation</a></li>"
-    "<li><a href='https://python-visualization.github.io/folium/' target='_blank'>Folium Documentation</a></li>"
-    "</ul>",
-    unsafe_allow_html=True
-)
+    st.markdown("<h3 class='header-font'>Resources</h3>", unsafe_allow_html=True)
+    st.markdown(
+        "<ul class='text-font'>"
+        "<li><a href='https://docs.streamlit.io/' target='_blank'>Streamlit Documentation</a></li>"
+        "<li><a href='https://python-visualization.github.io/folium/' target='_blank'>Folium Documentation</a></li>"
+        "</ul>",
+        unsafe_allow_html=True
+    )
 
 
 
