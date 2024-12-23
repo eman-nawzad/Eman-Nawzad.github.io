@@ -30,7 +30,7 @@ else:
 
 import streamlit as st
 
-# Set page configuration
+# Set page configuration as the first Streamlit command
 st.set_page_config(
     page_title="LCZ Web App",
     page_icon="🌍",
@@ -54,3 +54,4 @@ elif page == "About":
 else:
     import pages.contact as contact
     contact.display()
+
