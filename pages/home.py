@@ -1,3 +1,23 @@
+import streamlit as st
+import geopandas as gpd
+import json
+
+# Set page configuration as the first Streamlit command
+st.set_page_config(
+    page_title="LCZ Web App",
+    page_icon="🌍",
+    layout="wide"
+)
+
+# Your other Streamlit and script logic follows here
+# Example:
+# map_center = [gdf.geometry.centroid.y.mean(), gdf.geometry.centroid.x.mean()]
+
+
+
+
+
+
 def display():
     import streamlit as st
 
