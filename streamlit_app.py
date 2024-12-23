@@ -30,27 +30,22 @@ else:
 
 import streamlit as st
 
-# Set page configuration
+# Set page configuration (must be the first Streamlit command)
 st.set_page_config(
     page_title="LCZ Web App",
-    page_icon="🌍",  # Earth emoji
+    page_icon="🌍",  # Earth emoji or use "assets/favicon.png"
     layout="wide"
 )
 
-# Main app logic
+# Sidebar navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home", "LCZ Map", "About", "Contact"])
+page = st.sidebar.radio("Go to", ["Home", "About"])
 
+# Navigation logic
 if page == "Home":
     from pages import home
     home.display()
-elif page == "LCZ Map":
-    from pages import lcz_map
-    lcz_map.display()
 elif page == "About":
     from pages import about
     about.display()
-elif page == "Contact":
-    from pages import contact
-    contact.display()
 
