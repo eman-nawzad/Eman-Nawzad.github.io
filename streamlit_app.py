@@ -26,4 +26,31 @@ else:
     folium.GeoJson(geojson_path, name="LCZ").add_to(m)
     st_folium(m, width=700, height=500)
 
-    st.write("This map displays the Local Climate Zones (LCZ) data.")
+    st.write("This map displays the Local Climate Zones (LCZ) data.") 
+
+import streamlit as st
+
+# Set page configuration
+st.set_page_config(
+    page_title="LCZ Web App",
+    page_icon="🌍",
+    layout="wide"
+)
+
+# Sidebar navigation
+st.sidebar.title("Navigation")
+page = st.sidebar.radio("Go to", ["Home", "LCZ Map", "About", "Contact"])
+
+# Dynamic page loading
+if page == "Home":
+    import pages.home as home
+    home.display()
+elif page == "LCZ Map":
+    import pages.map as map_page
+    map_page.display()
+elif page == "About":
+    import pages.about as about
+    about.display()
+else:
+    import pages.contact as contact
+    contact.display()
