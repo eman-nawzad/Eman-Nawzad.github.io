@@ -33,15 +33,14 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(
     page_title="LCZ Web App",
-    page_icon="\U0001F30D",  # Earth emoji
+    page_icon="🌍",  # Earth emoji
     layout="wide"
 )
 
-# Sidebar navigation
+# Main app logic
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "LCZ Map", "About", "Contact"])
 
-# Dynamic page loading
 if page == "Home":
     from pages import home
     home.display()
@@ -54,3 +53,4 @@ elif page == "About":
 elif page == "Contact":
     from pages import contact
     contact.display()
+
