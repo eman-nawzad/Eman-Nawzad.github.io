@@ -14,25 +14,28 @@ st.set_page_config(
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "About"])
 
-# Custom CSS for changing fonts
+# Custom CSS using Times New Roman
 custom_css = """
     <style>
     body {
-        font-family: 'Arial', sans-serif;  /* Change the default font for the whole page */
-        background-color: #f8f9fa;  /* Light background color */
+        font-family: 'Times New Roman', serif;  /* Set Times New Roman for the whole page */
+        background-color: #FAFAFA;  /* Light gray background for better contrast */
+        color: #333333;  /* Slightly lighter black for readability */
     }
+
     .header-font {
-        font-family: 'Georgia', serif;  /* Custom font for headers */
-        font-size: 2rem; /* Increase header font size */
-        color: #4CAF50; /* Green color for headers */
+        font-family: 'Times New Roman', serif;  /* Times New Roman for headers */
+        font-size: 2.5rem;  /* Large font size for headers */
+        color: #4A4A4A;  /* Dark gray for header text */
         font-weight: bold;
         margin-bottom: 20px;
     }
+
     .text-font {
-        font-family: 'Verdana', sans-serif; /* Custom font for text */
-        font-size: 1.2rem; /* Slightly larger text size */
-        color: #333; /* Dark text color */
-        line-height: 1.6; /* Add spacing between lines */
+        font-family: 'Times New Roman', serif; /* Times New Roman for text */
+        font-size: 1.3rem;  /* Slightly larger text for readability */
+        color: #333333; /* Dark gray for text color */
+        line-height: 1.8; /* Increase line spacing for readability */
     }
     </style>
 """
@@ -44,7 +47,7 @@ if page == "Home":
     # Home page content
     st.markdown("<h2 class='header-font'>Home Page</h2>", unsafe_allow_html=True)
     st.markdown(
-        "<p class='text-font'>Welcome to the Local Climate Zones (LCZ) Web App. This platform allows you to interactively explore LCZ data for different regions. You can visualize the data on a map and gain insights about local climate zones.</p>",
+        "<p class='text-font'>Welcome to the Local Climate Zones (LCZ) Web App. This platform provides an interactive way to explore LCZ data for different regions. You can visualize the data on a map and gain insights into the local climate zones.</p>",
         unsafe_allow_html=True
     )
 
@@ -76,14 +79,15 @@ elif page == "About":
     # About page content
     st.markdown("<h2 class='header-font'>About This App</h2>", unsafe_allow_html=True)
     st.markdown(
-        "<p class='text-font'>This web application was built to provide an interactive visualization of Local Climate Zones (LCZ). It is designed for researchers, urban planners, and anyone interested in understanding how different zones are categorized based on urban and natural landscapes.</p>",
+        "<p class='text-font'>This web application was created to provide an interactive visualization of Local Climate Zones (LCZ). It is designed for researchers, urban planners, and anyone interested in understanding how different zones are categorized based on urban and natural landscapes.</p>",
         unsafe_allow_html=True
     )
     st.markdown(
-        "<p class='text-font'>The data is sourced from GeoJSON files, and the app leverages the power of <strong>Streamlit</strong> for creating interactive user interfaces and <strong>Folium</strong> for map visualizations.</p>",
+        "<p class='text-font'>The app leverages <strong>Streamlit</strong> for user-friendly interfaces and <strong>Folium</strong> for map visualizations. The LCZ data is sourced from GeoJSON files, which allows for accurate spatial mapping and analysis.</p>",
         unsafe_allow_html=True
     )
     st.markdown(
-        "<p class='text-font'>Feel free to explore the map and learn more about the climate zones in your region.</p>",
+        "<p class='text-font'>Feel free to explore the map and gain valuable insights into the climate zones in your region.</p>",
         unsafe_allow_html=True
     )
+
