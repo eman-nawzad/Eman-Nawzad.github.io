@@ -1,26 +1,7 @@
+# home.py
 import streamlit as st
-import geopandas as gpd
-import json
-
-# Set page configuration as the first Streamlit command
-st.set_page_config(
-    page_title="LCZ Web App",
-    page_icon="🌍",
-    layout="wide"
-)
-
-# Your other Streamlit and script logic follows here
-# Example:
-# map_center = [gdf.geometry.centroid.y.mean(), gdf.geometry.centroid.x.mean()]
-
-
-
-
-
 
 def display():
-    import streamlit as st
-
     st.title("Welcome to the Local Climate Zones (LCZ) Web App 🌎")
     st.subheader("Analyze and Explore LCZ Data with Ease!")
     st.markdown(
@@ -37,4 +18,3 @@ def display():
         use_column_width=True
     )
     st.write("Use the sidebar to navigate through the app.")
-
