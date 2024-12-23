@@ -28,7 +28,7 @@ else:
 
     st.write("This map displays the Local Climate Zones (LCZ) data.") 
 
-import streamlit as st
+
 
 # Set page configuration (must be the first Streamlit command)
 st.set_page_config(
