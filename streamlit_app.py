@@ -33,7 +33,7 @@ import streamlit as st
 # Set page configuration
 st.set_page_config(
     page_title="LCZ Web App",
-    page_icon="🌍",
+    page_icon="\U0001F30D",  # Earth emoji
     layout="wide"
 )
 
