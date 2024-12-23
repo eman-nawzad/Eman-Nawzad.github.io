@@ -95,7 +95,7 @@ elif page == "About":
         unsafe_allow_html=True
     )
 
-# Add extra information at the bottom (common to both pages)
+# Add extra information at the bottom (common to both pages, outside page selection logic)
 st.markdown("<hr>", unsafe_allow_html=True)  # Horizontal line to separate sections
 st.markdown("<h3 class='header-font'>App Overview</h3>", unsafe_allow_html=True)
 st.markdown(
@@ -131,6 +131,7 @@ st.markdown(
     "</ul>",
     unsafe_allow_html=True
 )
+
 
 
 
