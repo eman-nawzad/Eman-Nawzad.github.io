@@ -10,11 +10,47 @@ st.set_page_config(
     layout="wide"
 )
 
-# Sidebar navigation
+# Sidebar navigation and additional information
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "About"])
 
-# Custom CSS using Times New Roman with uniform boldness
+# Sidebar additional information
+st.sidebar.markdown("## App Overview")
+st.sidebar.markdown(
+    """
+    This web app provides an interactive platform to explore **Local Climate Zones (LCZ)** data.
+    
+    - Use the **Home** page to view the interactive map.
+    - Visit the **About** page to learn more about the app and its purpose.
+    """
+)
+st.sidebar.markdown("## Instructions")
+st.sidebar.markdown(
+    """
+    1. Select a page from the sidebar navigation.
+    2. On the **Home** page:
+       - Explore the map to view LCZ data.
+       - Zoom and pan to see different regions.
+    3. On the **About** page:
+       - Read about the app's purpose and data sources.
+    """
+)
+st.sidebar.markdown("## About LCZ Data")
+st.sidebar.markdown(
+    """
+    LCZ data categorizes land into zones based on urban and natural landscapes, 
+    helping researchers and planners analyze urban climates.
+    """
+)
+st.sidebar.markdown("## Resources")
+st.sidebar.markdown(
+    """
+    - [Streamlit Documentation](https://docs.streamlit.io/)
+    - [Folium Documentation](https://python-visualization.github.io/folium/)
+    """
+)
+
+# Custom CSS for styling
 custom_css = """
     <style>
     body {
@@ -26,7 +62,7 @@ custom_css = """
     .header-font {
         font-family: 'Times New Roman', serif;  /* Times New Roman for headers */
         font-size: 2.5rem;  /* Large font size for headers */
-        color: #4A4A4A;  /* Dark gray for header text */
+        color: #333333;  /* Light gray for header text */
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -91,4 +127,5 @@ elif page == "About":
         "<p class='text-font'>Feel free to explore the map and gain valuable insights into the climate zones in your region.</p>",
         unsafe_allow_html=True
     )
+
 
