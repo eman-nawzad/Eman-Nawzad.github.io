@@ -1,4 +1,4 @@
-# Eman Nawzad 🌍  
+# Hi,  Eman Nawzad 🌍  
 **Geomatics Engineer | Geospatial Developer | AI Enthusiast**
 
 Welcome to my portfolio! I specialize in geospatial analysis, satellite imagery processing, and developing AI-driven solutions to solve real-world challenges.  
