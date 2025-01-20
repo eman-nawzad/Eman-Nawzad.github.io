@@ -3,20 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eman Nawzad | Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <style>
+        /* Inline styles for a clean, single-page layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            background: #444;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        nav .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav .nav-links a:hover {
+            color: #ffd700;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #444;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: #f4f4f9;
+            margin: 0.5rem 0;
+            padding: 0.5rem 1rem;
+            border-left: 4px solid #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 3rem;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <div class="header-container">
-            <h1>Eman Nawzad</h1>
-            <p>Geomatics Engineer | Geospatial Developer | AI Enthusiast</p>
-        </div>
+        <h1>Portfolio</h1>
+        <p>Geomatics Engineer | Geospatial Developer | AI Enthusiast</p>
     </header>
 
-    <!-- Navigation Bar -->
     <nav>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -26,9 +113,7 @@
         </ul>
     </nav>
 
-    <!-- Main Content -->
     <main>
-        <!-- About Section -->
         <section id="about" class="section">
             <h2>About Me</h2>
             <p>
@@ -36,18 +121,16 @@
             </p>
         </section>
 
-        <!-- Project Section -->
         <section id="project" class="section">
             <h2>Featured Project</h2>
             <div class="project">
-                <h3><a href="https://github.com/eman-nawzad/Drought-Monitoring">Drought Monitoring System</a></h3>
+                <h3><a href="https://github.com/eman-nawzad/Drought-Monitoring" target="_blank">Drought Monitoring System</a></h3>
                 <p>
                     Developed an advanced system for monitoring drought conditions using geospatial data, including NDVI and SPI indices. This tool provides valuable insights into drought severity and helps in better decision-making for resource management.
                 </p>
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="section">
             <h2>Skills</h2>
             <ul class="skills-list">
@@ -60,20 +143,19 @@
             </ul>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="section">
             <h2>Contact</h2>
             <p>Email: eman.nawzad00@gmail.com</p>
-            <p>GitHub: <a href="https://github.com/eman-nawzad">Eman Nawzad</a></p>
+            <p>GitHub: <a href="https://github.com/eman-nawzad" target="_blank">Eman Nawzad</a></p>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Eman Nawzad. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
+
 
 
 
