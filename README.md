@@ -22,7 +22,7 @@ I am a **Spatial Analyst** with expertise in geospatial data analysis, satellite
 
 ## 🌟 Featured Projects  
 
-###  [Drought Monitoring System 🚰](https://github.com/eman-nawzad/Drought-Monitoring)  
+### 1. [Drought Monitoring System 🚰](https://github.com/eman-nawzad/Drought-Monitoring)  
 **Description**:  
 This project focuses on drought monitoring by leveraging the **Standardized Precipitation Index (SPI)** to analyze precipitation anomalies. The system provides critical insights for managing water resources and mitigating drought impacts.  
 
@@ -31,21 +31,34 @@ This project focuses on drought monitoring by leveraging the **Standardized Prec
 - Geospatial visualization of drought conditions across regions  
 - Insights for policy-making and agricultural resource management  
 
+
+
 ---
 
+### 2. [Streamlit Applications 🌐](#)  
+I have developed Streamlit web applications to make geospatial data and analysis more accessible. These applications showcase dynamic maps, analytical dashboards, and easy-to-use interfaces for exploring geospatial data.
 
+#### Key Streamlit Applications:  
 
-**Features**:  
-- GIS-based zonation and risk analysis  
-- Machine learning model trained on historical landslide data  
-- Outputs provide insights for disaster mitigation planning  
+1. **Drought Monitoring App**  
+   - Displays SPI drought maps and categorized drought severity using an interactive interface.  
+   - Features include zoomable maps, SPI thresholds, and a legend for easier interpretation.  
+
+   **[Repository Link](https://github.com/eman-nawzad/Drought-Monitoring-App)**  
+
+2. **Urban Analysis Dashboard**  
+   - Provides tools for exploring Local Climate Zones, urban density, and road networks.  
+   - Users can visualize and analyze the geospatial data interactively.  
+
+   **[Repository Link](https://github.com/eman-nawzad/urban-analysis)**  
+
 
 ---
 
 ## 📫 Contact Me  
 - **Email**: [eman.nawzad00@gmail.com](mailto:eman.nawzad00@gmail.com)  
 - **GitHub**: [Eman Nawzad](https://github.com/eman-nawzad)  
-- **LinkedIn**: [Eman Nawzad](https://www.linkedin.com/in/eman-nawzad)  
+
 
 ---
 
