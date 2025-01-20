@@ -1,24 +1,23 @@
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f3f4f6;
+    line-height: 1.6;
+    background-color: #f4f4f9;
     color: #333;
 }
 
 /* Header */
 header {
-    background-color: #1e293b;
-    color: #f8fafc;
-    padding: 30px 15px;
+    background-color: #2a4365;
+    color: #ffffff;
+    padding: 40px 20px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin: 0;
 }
 
@@ -27,17 +26,19 @@ header p {
     margin-top: 10px;
 }
 
-/* Navigation */
+/* Navigation Bar */
 nav {
-    background-color: #0f172a;
+    background-color: #1a365d;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 10px;
     margin: 0;
+    padding: 0;
 }
 
 .nav-links li {
@@ -46,19 +47,19 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #f8fafc;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #38bdf8;
+    color: #63b3ed;
 }
 
 /* Section Styling */
 .section {
-    padding: 20px;
+    padding: 40px 20px;
     margin: 20px auto;
     max-width: 900px;
     background-color: #ffffff;
@@ -66,31 +67,28 @@ nav {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Project List */
-.project-list {
-    list-style: none;
-    padding: 0;
+.section h2 {
+    margin-bottom: 20px;
+    color: #2a4365;
 }
 
-.project-list li {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-bottom: 1px solid #e5e7eb;
+/* Project Styling */
+.project {
+    border-left: 4px solid #63b3ed;
+    padding-left: 15px;
+    margin-bottom: 20px;
 }
 
-.project-list li:last-child {
-    border-bottom: none;
-}
-
-.project-list a {
+.project a {
     text-decoration: none;
-    color: #1e40af;
+    color: #2b6cb0;
     font-weight: bold;
+    font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
-.project-list a:hover {
-    color: #2563eb;
+.project a:hover {
+    color: #3182ce;
 }
 
 /* Skills List */
@@ -100,9 +98,10 @@ nav {
 }
 
 .skills-list li {
+    background-color: #ebf8ff;
+    color: #2a4365;
+    padding: 10px;
     margin-bottom: 10px;
-    padding: 5px 10px;
-    background-color: #e0f2fe;
     border-radius: 5px;
     display: inline-block;
 }
@@ -111,9 +110,8 @@ nav {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #0f172a;
-    color: #f8fafc;
+    background-color: #2a4365;
+    color: #ffffff;
     margin-top: 20px;
 }
-
 
