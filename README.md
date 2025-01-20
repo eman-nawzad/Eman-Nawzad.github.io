@@ -1,35 +1,48 @@
-# Hi,  Eman Nawzad 🌍  
+# Hi, I’m Eman Nawzad 🌍  
 **Geomatics Engineer | Geospatial Developer | AI Enthusiast**
 
-Welcome to my portfolio! I specialize in geospatial analysis, satellite imagery processing, and developing AI-driven solutions to solve real-world challenges.  
+Welcome to my portfolio! I specialize in geospatial analysis, satellite imagery processing, and developing AI-driven solutions that address critical challenges in resource management, urban planning, and environmental monitoring.
 
 ---
 
-## 🛠 About Me
-I am a passionate Spatial Analyst with a strong focus on geospatial data analysis and visualization. Leveraging advanced GIS tools and AI techniques, I aim to deliver insights that drive decision-making and innovation.
+## 🛠 About Me  
+I am a **Spatial Analyst** with expertise in geospatial data analysis, satellite imagery processing, and developing solutions powered by AI and Machine Learning. My goal is to integrate advanced GIS tools with innovative technologies to generate actionable insights and drive impactful decision-making.
 
 ---
 
 ## 🚀 Skills  
-- **Geospatial Analysis & GIS**  
-- **Satellite Image Processing**  
-- **Programming**: Python, JavaScript  
-- **AI and Machine Learning**  
-- **Data Visualization**: Matplotlib, Plotly, Power BI  
-- **Web Development**  
+- **Geospatial Analysis & GIS**: Spatial data management, geoprocessing, and cartography  
+- **Satellite Image Processing**: SPI computation, land cover classification, and remote sensing techniques  
+- **Programming**: Python (Geopandas, Rasterio, Shapely), JavaScript (Leaflet, Mapbox)  
+- **AI & Machine Learning**: Predictive modeling, data-driven solutions for geospatial applications  
+- **Data Visualization**: Matplotlib, Plotly, Power BI, and web-based visualizations  
+- **Web Development**: HTML, CSS, JavaScript, and geospatial web apps  
 
 ---
 
-## 🌟 Featured Projects
-### [Drought Monitoring System](https://github.com/eman-nawzad/Drought-Monitoring)  
-Developed a system to monitor drought conditions using geospatial data (NDVI and SPI indices). Provides valuable insights for resource management and policy-making.  
+## 🌟 Featured Projects  
 
-### [Urban Analysis Dashboard](https://github.com/eman-nawzad/urban-analysis)  
-An interactive dashboard analyzing urban density, road networks, and land cover changes using advanced geospatial techniques.  
+###  [Drought Monitoring System 🚰](https://github.com/eman-nawzad/Drought-Monitoring)  
+**Description**:  
+This project focuses on drought monitoring by leveraging the **Standardized Precipitation Index (SPI)** to analyze precipitation anomalies. The system provides critical insights for managing water resources and mitigating drought impacts.  
+
+**Features**:  
+- Automated SPI computation using satellite rainfall data  
+- Geospatial visualization of drought conditions across regions  
+- Insights for policy-making and agricultural resource management  
 
 ---
 
-## 📫 Contact Me
+
+
+**Features**:  
+- GIS-based zonation and risk analysis  
+- Machine learning model trained on historical landslide data  
+- Outputs provide insights for disaster mitigation planning  
+
+---
+
+## 📫 Contact Me  
 - **Email**: [eman.nawzad00@gmail.com](mailto:eman.nawzad00@gmail.com)  
 - **GitHub**: [Eman Nawzad](https://github.com/eman-nawzad)  
 - **LinkedIn**: [Eman Nawzad](https://www.linkedin.com/in/eman-nawzad)  
@@ -40,9 +53,11 @@ An interactive dashboard analyzing urban density, road networks, and land cover 
 ![Eman Nawzad's GitHub stats](https://github-readme-stats.vercel.app/api?username=eman-nawzad&show_icons=true&theme=radical)  
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eman-nawzad&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
+
 ---
 
-## 📚 Recent Blogs
-- [5 Ways Geospatial Data is Changing the World](#)
-- [The Role of AI in Remote Sensing](#)
+## 🌐 Find Me Online  
+- **GitHub**: [github.com/eman-nawzad](https://github.com/eman-nawzad)  
+- **Portfolio**: [eman-nawzad.com](#) (Coming Soon)  
+
 
