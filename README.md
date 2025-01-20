@@ -40,17 +40,13 @@ I have developed Streamlit web applications to make geospatial data and analysis
 
 #### Key Streamlit Applications:  
 
-1. **Drought Monitoring App**  
+ **Drought Monitoring App**  
    - Displays SPI drought maps and categorized drought severity using an interactive interface.  
    - Features include zoomable maps, SPI thresholds, and a legend for easier interpretation.  
 
-   **[Repository Link](https://github.com/eman-nawzad/Drought-Monitoring-App)**  
+   **[Repository Link](https://github.com/eman-nawzad/Drought-Monitoring)**  
 
-2. **Urban Analysis Dashboard**  
-   - Provides tools for exploring Local Climate Zones, urban density, and road networks.  
-   - Users can visualize and analyze the geospatial data interactively.  
 
-   **[Repository Link](https://github.com/eman-nawzad/urban-analysis)**  
 
 
 ---
