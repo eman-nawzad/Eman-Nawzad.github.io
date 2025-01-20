@@ -60,7 +60,7 @@ I have developed Streamlit web applications to make geospatial data and analysis
 
 ## 📊 GitHub Stats  
 ![Eman Nawzad's GitHub stats](https://github-readme-stats.vercel.app/api?username=eman-nawzad&show_icons=true&theme=radical)  
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eman-nawzad&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?Eman-Nawzad.github.io=anuraghazra&hide_progress=true)
 
 
 ---
